@@ -7,7 +7,7 @@ const Rodape = () => {
       {/* Container principal */}
       <div className={estilos.conteudo}>
         
-        {/* Logo com link para homepage - acessibilidade */}
+        {/* Logo com link para homepage  */}
         <a href="/home" aria-label="Ir para a página inicial" className={estilos.logo}>
           <img 
             src={Logo} 
@@ -18,9 +18,9 @@ const Rodape = () => {
         {/* Texto de copyright */}
         <p className={estilos.descricaoRodape}>© 2025 Yngrid Baeta</p>
         
-        {/* Link para documentação - alterar href para real */}
-        <a 
-          href="/docs" 
+        {/* Link para documentação */}
+       <a 
+          href="./public/smartcity-documentacao.pdf" 
           className={estilos.linkDoc} 
           target="_blank" 
           rel="noopener noreferrer"

@@ -4,7 +4,6 @@ import axios from "axios";
 import estilos from "./Login.module.css";
 
 // Imagens
-import imageLogin from "../assets/imageLogin.png";
 import userIcon from "../assets/user.png";
 import cadeadoIcon from "../assets/cadeado.png";
 
@@ -36,7 +35,7 @@ function Login() {
         <main className={estilos.container}>
             {/*seção da esquerda com imagem e título */}
             <section className={estilos.ladoEsquerdo} aria-label="Apresentação da plataforma">
-                <img src={imageLogin} alt="Cidade ao entardecer" className={estilos.fundoImagem} />
+                <section  className={estilos.fundo} />
                 <div className={estilos.textoOverlay}>
                     <p>Seja Bem-Vindo(a) à</p>
                     <h1>

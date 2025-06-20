@@ -12,7 +12,8 @@
     justify-content: center;
 }
 
-.fundoImagem {
+.fundo{
+    background-color: #280433;
     position: absolute;
     width: 100%;
     height: 100%;
