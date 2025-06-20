@@ -1,0 +1,73 @@
+.nav {
+  height: 70px;
+  background-color: #280433;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px; 
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+}
+
+.logo img {
+  width: 225px;
+  margin-top: 2px;
+  height: auto;
+  object-fit: contain;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.menu li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* hover para todos os links */
+.menu li a:hover {
+  color: #f0a5ff;
+}
+
+.ativo {
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+}
+
+/* Estilo do botão login */
+.buttonLogin {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #8A58B0;
+}
+
+.loginLink {
+  color: white;
+  text-decoration: none;
+}
+
+.loginLink:hover {
+  color: #C48DFF;
+}
+
+.loginAtivo {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}

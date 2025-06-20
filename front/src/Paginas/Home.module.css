@@ -1,0 +1,139 @@
+.imagemPrincipal {
+    width: 100%;
+    min-height: 55vh;
+    background-image: url('../assets/predios.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: -50px;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px #9B75B8;
+    padding: 1.5rem;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    border: 1px solid #ece0f9;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icone {
+    width: 60px;
+    margin-bottom: 1rem;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    color: #2e003e;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.resumoCidade {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.resumoCidade h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #2e003e;
+    margin-bottom: 1rem;
+}
+
+.legendaSensores {
+    display: flex;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px #9B75B8;
+    padding: 1.5rem;
+    max-width: 400px;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #ece0f9;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.graficoPizza {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px #9B75B8;
+    padding: 1.5rem;
+    max-width: 670px;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #ece0f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    flex-direction: column;
+}
+
+.legendaSensores h4 {
+    color: #2e003e;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.legendaSensores p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.bolinhaAtivo,
+.bolinhaInativo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.bolinhaAtivo {
+    background-color: #8806B0;
+    padding: 7px;
+}
+
+.bolinhaInativo {
+    background-color: #451B5A;
+    padding: 7px;
+}
+
+.legSensores {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    flex-direction: row;
+}

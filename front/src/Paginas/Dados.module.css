@@ -1,0 +1,118 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.filtros {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.filtros input,
+.filtros select {
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.botoesAcao {
+  display: flex;
+  gap: 10px;
+}
+
+.botoesAcao button {
+  border: 1px solid #280433;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  padding: 7px 12px;
+  background-color: white;
+  color: #280433;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botoesAcao button:hover {
+  background-color: #8A58B0;
+  color: white;
+}
+
+/* container geral */
+.maior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.tabelaContainer {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tabelaWrapper {
+  width: 80%;
+  border: 1px solid #280433;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela th,
+.tabela td {
+  padding: 10px;
+  border-bottom: 1px solid #b3b3b3;
+  text-align: center;
+}
+
+.tabela th {
+  background-color: #decfe7;
+  color: #280433;
+}
+
+.tabela td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: 1px solid #280433;
+  border-radius: 4px;
+  background-color: white;
+  color: #280433;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+
+.acoes {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.acoes img {
+  width: 22px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.acoes img:hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
