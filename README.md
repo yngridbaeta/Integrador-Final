@@ -34,4 +34,3 @@ Os dados dos sensores são armazenados no banco SQLite e disponibilizados por me
 ✅ Importação e exportação de dados via arquivos **Excel (.xlsx)**  
 ✅ Resumo com contagem de sensores ativos e inativos  
 ✅ Autenticação protegida com **JWT**  
-✅ Código validado com boas práticas e organização modular
