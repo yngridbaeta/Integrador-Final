@@ -2,7 +2,7 @@
 
 ### 📌 Descrição
 
-Este projeto integra o conceito de **Cidade Inteligente** (Smart City), sendo uma aplicação voltada para o monitoramento de dados urbanos simulados via sensores, que coletam:
+Este projeto integra o conceito de **Cidade Inteligente**, sendo uma aplicação voltada para o monitoramento de dados urbanos simulados via sensores, que coletam:
 
 - 🌡️ Temperatura (°C)  
 - 💧 Umidade (%)  
